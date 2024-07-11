@@ -14,7 +14,7 @@ public class LLogindataprovider extends BBaseclass {
 	
 	String filename=System.getProperty("user.dir")+"\\TestData\\loginData.xlsx";
 	@Test(dataProvider="LLoginDataprovider")
-	public void loginverify(String username ,String password) {
+	public void loginVerify(String username ,String password) {
 		
 		
 		LLoginpage ww=new LLoginpage(driver);
